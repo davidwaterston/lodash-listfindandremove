@@ -1,8 +1,11 @@
 # Lodash listFindAndRemove
 
+[![Build Status](https://travis-ci.org/davidwaterston/lodash-listfindandremove.svg)](https://travis-ci.org/davidwaterston/lodash-listfindandremove)
+
+
 Extends [Lodash](https://lodash.com/) to search a delimited string and remove any occurrences of a specified value.  
 Returns a new string with the specified values removed, the original string is unchanged.    
- 
+
 
 ### _.listFindAndRemove(list, target, [delimiter=','])
 
@@ -13,8 +16,8 @@ target (string): The value to remove from the list. Matching is case-sensitive. 
 
 **Returns**  
 (string): Returns a string containing the delimited list with all occurrences of the _target_ removed.  
-  
-  
+
+
 ### Examples  
 ```
 var _ = require('lodash')
