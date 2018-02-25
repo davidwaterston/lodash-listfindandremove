@@ -1,6 +1,6 @@
 {
   "name": "lodash-listfindandremove",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extend lodash to remove a matching item from a string containg a delimited list.",
   "main": "index.js",
   "dependencies": {
